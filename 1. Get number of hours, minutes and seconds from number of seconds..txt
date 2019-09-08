@@ -1,0 +1,11 @@
+
+var sec = prompt ("plesase enter seceonds");
+function hour (sec)
+{
+var h=0;
+if(sec>3600)
+{
+h= sec%3600;}
+var m = (sec - s)/60;
+console.log(h,m,s);
+}

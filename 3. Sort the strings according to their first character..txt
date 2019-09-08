@@ -1,0 +1,12 @@
+var number = prompt("please ente3rtf the number");
+function xor (l,r)
+{
+var res =0;
+for (var l; l<=r;l++)
+{
+res= res^l;}
+if(res%2==0)
+console.log("even");
+else
+console.log("odd");
+}

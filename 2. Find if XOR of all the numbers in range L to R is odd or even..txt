@@ -1,0 +1,11 @@
+var str=["amit","sagar","ramwsh"]
+for(var i=o ; i<str.length;i++)
+{
+for (var j=i+1;j<strlength;j++)
+{
+if(str[i][0]>str[j][0])
+{
+temp =str[i];
+str[i]=str[j];
+str[j]= temp;
+}}}
